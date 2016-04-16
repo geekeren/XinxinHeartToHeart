@@ -1,0 +1,94 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HeartToHeartFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/heart_head_circle"
+            android:src="@drawable/my_main_avatar_default"
+            android:id="@+id/imageView"
+            android:padding="6dp"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:id="@+id/lv_heart_content"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/heart_topshape"
+            android:layout_below="@+id/imageView"
+            android:layout_above="@+id/linearLayout2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="长按绿色按钮\n感应彼此距离"
+        android:id="@+id/tv_heart_note"
+        android:layout_gravity="center"
+        android:typeface="serif"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:visibility="visible" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|center|center_horizontal"
+            android:layout_alignParentBottom="true"
+
+            android:id="@+id/linearLayout2"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="去找TA"
+                android:id="@+id/btn_location_detail"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:id="@+id/btn_heart_start"
+                android:background="@drawable/heart_circle"
+                android:textSize="30sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20px"
+                android:textColor="@color/default_white" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TA在哪里"
+                android:id="@+id/button"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

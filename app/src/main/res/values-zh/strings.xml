@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">昕翻译</string>
+    <string name="action_settings">设置</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_share">分享</string>
+    <string name="title_note_detail">记事详情</string>
+    <string name="title_note_list">记事</string>
+    <string name="title_activity_new_note">新建记事</string>
+    <string name="action_delete">删除</string>
+    <string name="action_collect">收藏到昕记事</string>
+    <string name="edit_note_empty">记事为空，写点什么吧!</string>
+    <string name="toast_save_as_draft">已保存为草稿</string>
+    <string name="toast_save_success">保存成功</string>
+    <string name="save">保存</string>
+    <string name="share_to_xinnote">收藏到昕记事</string>
+    <string name="action_creatShortCut">创建快捷方式</string>
+    <string name="TAB_NOTE">昕记事</string>
+    <string name="TAB_HEARTTOHEART">昕相印</string>
+    <string name="TAB_TRANSLATE">昕翻译</string>
+    <string name="action_notelist_menu_copy">复制</string>
+    <string name="title_location_detail">TA在哪</string>
+
+    <string name ="registerOrSignIn">登录/注册</string>
+    <string name="title_activity_login">登录</string>
+    <string name="error_field_required">必填项</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="action_sign_in">登录/注册</string>
+    <string name="error_incorrect_password">密码或用户名错误</string>
+    <string name="error_invalid_email">无效的邮箱</string>
+    <string name="error_invalid_password">密码太短</string>
+</resources>

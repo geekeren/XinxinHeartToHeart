@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/TAB_NOTE"/>
+    <PreferenceScreen android:key="key1"
+        android:title="@string/action_collect"
+        android:summary="cxwsc">
+        <intent
+            android:action="key.action"
+            android:targetPackage="key1.package"
+            android:targetClass="key1.class"></intent>
+        </PreferenceScreen>
+</PreferenceScreen>

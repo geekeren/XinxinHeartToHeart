@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#815394</color>
+    <color name="locatinTitleBar">#50c859f9</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryLight">#7bbde6</color>
+    <color name="tx_status_draft">#c18652</color>
+    <color name="colorTab">#3a2a43</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="btnpressed">#39d0ec</color>
+    <color name="btnunpressed">#BCE3F7</color>
+    <color name="color_main_red">#ffff0000</color>
+    <color name="color_main_blue">#ff0000ff</color>
+    <color name="color_main_green">#ff00ff00</color>
+    <color name="color_main_black">#ff000000</color>
+    <color name="color_main_white">#ffffffff</color>
+    <color name="color_type_all">#ffcc092e</color>
+    <color name="color_type_spirit">#ff2c39e3</color>
+    <color name="color_type_note">#ff0da4a2</color>
+    <color name="color_type_notifition">#ffb939bb</color>
+    <color name="color_type_idea">#ff0d7dfc</color>
+    <color name="color_type_collection">#ff898b0a</color>
+
+    <color name="switch_on">#6CA754</color>
+    <color name="switch_off">#CD2D2E</color>
+    <color name="default_white">#FFFFFF</color>
+    <color name="heart_head_bg">#ff05adaf</color>
+
+    <color name="main_menu_item_normal">#ff424242</color>
+    <color name="main_menu_item_pressed">#ff9db457</color>
+    <color name="main_item_normal">#ffffffff</color>
+    <color name="main_item_pressed">#ffc1defc</color>
+    <color name="main_item_text_focus">#ff3e3e3e</color>
+    <color name="listlayout_normal">#fff0f0f0</color>
+    <color name="listlayout_pressed">#ff22d411</color>
+    <color name="gridviewbg">#ffffffff</color>
+    <color name="gridviewselectbg">#ffdddddd</color>
+    <color name="wavebackground">#ffe8e8e8</color>
+    <color name="realplay_bg_0">#ff05adaf</color>
+    <color name="realplay_bg_1">#ff0d7dfc</color>
+    <color name="realplay_bg_2">#ff05af55</color>
+    <color name="background_green">#ff17970a</color>
+    <color name="background_white_a">#77ffffff</color>
+    <color name="set_item_normal">#ffffffff</color>
+    <color name="set_item_pressed">#ffd8fdec</color>
+    <color name="playback_child_item_pressed">#ffeae9e9</color>
+    <color name="playback_child_item_normal">#fff3f3f3</color>
+    <color name="playback_rect_bg">#ff77a40b</color>
+
+</resources>

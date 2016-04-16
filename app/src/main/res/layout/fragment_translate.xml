@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.wangbaiyuan.translate.TranslateFragment"
+    android:paddingLeft="6dp"
+    android:paddingTop="1dp"
+    android:paddingRight="6dp"
+    android:paddingBottom="6dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/liner">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText"
+                android:hint="输入你要翻译的内容"
+                android:textSize="16dp"
+                android:maxHeight="150dp"
+                android:minHeight="80dp"
+                android:scrollbars="vertical"
+                android:padding="10dp"
+                android:background="@drawable/topshape"
+                android:layout_marginBottom="1dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="清空"
+                    android:id="@+id/resetbtn"
+                    android:layout_weight="1"
+                    android:background="@drawable/leftbottomshape"
+                    android:layout_marginRight="1dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="翻译"
+                    android:id="@+id/translatebtn"
+                    android:layout_weight="1"
+                    android:background="@drawable/rightbottomshape"
+                    android:layout_marginLeft="1dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:textIsSelectable="true"
+                android:scrollbars="vertical"
+                android:padding="10dp"
+                android:layout_marginTop="1dp"
+                android:clickable="false"
+                android:hint="在上面输入中文或英文(⊙o⊙)…" />
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:id="@+id/swipe_translate_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/tools">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/scrollView" >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/translateContent"
+                    android:scrollbars="vertical">
+
+                </LinearLayout>
+            </ScrollView>
+</android.support.v4.widget.SwipeRefreshLayout>
+        </LinearLayout>
+
+
+</FrameLayout>
